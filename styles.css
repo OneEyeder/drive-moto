@@ -1,2 +1,91 @@
-/*# sourceMappingURL=styles.css.map */
-/* styles.css или ваш SASS-файл */
+header {
+  padding-top: 25px;
+}
+header .header__top {
+  max-width: 1183px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__top-adress p {
+  font-weight: 700;
+  position: relative;
+}
+header .header__top-adress p::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../assets/img/gps-point.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header .header__top-menu {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+}
+header .header__top-item {
+  row-gap: 40px;
+}
+header .header__top-menu-item-link {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header__top-panel__basket-img {
+  position: relative;
+  display: inline-block;
+}
+
+.basket-container {
+  position: relative;
+  display: inline-block;
+}
+
+.basket-container::after {
+  content: "1";
+  position: absolute;
+  top: 8px;
+  right: -16px;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  font-size: 10px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.header__bottom {
+  background-color: var(--color-light-gray);
+  margin: 0;
+  margin-top: 20px;
+  padding-block: 15px;
+  display: flex;
+  justify-content: center;
+}
+.header__bottom-menu {
+  display: flex;
+  gap: 60px;
+  margin: 0;
+  padding: 0;
+}
+.header__bottom-menu-item {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+:root {
+  --color-main: #2F3035;
+  --color-accent: #1C62CD;
+  --color-basic: #F0F0F4;
+  --color-light-gray: #C4C4C4;
+  --color-white: #ffffff;
+}/*# sourceMappingURL=styles.css.map */

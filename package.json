@@ -1,0 +1,29 @@
+{
+  "name": "drive-moto",
+  "version": "1.0.0",
+  "description": "Welcome! This project showcases a modern, responsive online store built with HTML, CSS, Sass, JavaScript, and Swiper.js.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass:watch": "sass --watch styles.scss:styles.css --no-source-map",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneEyeder/drive-moto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OneEyeder/drive-moto/issues"
+  },
+  "homepage": "https://github.com/OneEyeder/drive-moto#readme",
+  "devDependencies": {
+    "sass-embedded": "^1.93.3",
+    "vite": "^7.2.2"
+  }
+}
