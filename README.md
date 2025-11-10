@@ -1,6 +1,6 @@
-# Jet Ski Shop Website DRIVER MOTO
+# Jet Ski Shop Website DRIVE MOTO
 
-Welcome to the official website of our Jet Ski Shop, your one‑stop destination for browsing and purchasing high‑quality watercraft. This project showcases a modern, responsive online store built with HTML, CSS, Sass, JavaScript, and Swiper.js.
+Welcome! This project showcases a modern, responsive online store built with HTML, CSS, Sass, JavaScript, and Swiper.js.
 
 ---
 
