@@ -11,205 +11,382 @@
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./assets/img/fonts/fonts.css">
     <link rel="stylesheet" href="./swiper.css">
+    <link rel="stylesheet" href="./swiper2.css">
 </head>
-<header class="header">
-    <div class="container">
-        <div class="header__top">
-            <ul class="header__top-menu">
-                <li class="header__top-menu-item">
-                    <a href="#" class="header__top-menu-item-link">Магазины</a>
-                </li>
-                <li class="header__top-menu-item">
-                    <a href="#" class="header__top-menu-item-link">Акции</a>
-                </li>
-                <li class="header__top-menu-item">
-                    <a href="#" class="header__top-menu-item-link">Доставка и оплата</a>
-                </li>
-            </ul>
-            <a href="index.html">
-                <img src="/assets/img/icons/logo.svg" alt="logo" class="header__top-logo logo">
-
-            </a>
-            <div class="header__top-adress">
-                <a target="_blank"
-                    href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%9D%D0%B0%D1%83%D0%BA%D0%B8,+25/@60.0096824,30.3303438,13z/data=!4m10!1m2!2m1!1z0JzQvtGB0LrQstCwLCDRg9C7LiDQndCw0YPQutC4IDI1!3m6!1s0x469633093865d361:0xa2c34af8b0ca082d!8m2!3d60.0096824!4d30.4065615!15sCiHQnNC-0YHQutCy0LAsINGD0LsuINCd0LDRg9C60LggMjVaISIf0LzQvtGB0LrQstCwINGD0Lsg0L3QsNGD0LrQuCAyNZoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMUdkR1ZVUm5CUFZVcHZXVlZHVmt4VWFGQk5WVkpJWVZSS1YxTkdSUkFCqgFgEAEqFiIS0YPQuyDQvdCw0YPQutC4IDI1KA0yHxABIhu2FrsdjojULVeiSWbFA6-tS_dgr_xexHRDEbUyIxACIh_QvNC-0YHQutCy0LAg0YPQuyDQvdCw0YPQutC4IDI14AEA-gEECAAQKQ!16s%2Fg%2F120htnfc?entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D">
-                    <p>Москва, ул. Науки 25</p>
-                </a>
-            </div>
-            <div class="header__top-panel">
-                <a href="#">
-                    <img src="./assets/img/favorites.svg" alt="">
-                </a>
-                <a href="#">
-                    <img src="./assets/img/user-profile.svg" alt="">
-                </a>
-                <a href="#">
-                    <span class="basket-container">
-                        <img class="header__top-panel__basket-img" src="./assets/img/basket.svg" alt="">
-                    </span>
-
-                </a>
-            </div>
-        </div>
-        <div class="header__bottom">
-            <ul class="header__bottom-menu">
-                <li class="header__bottom-menu-item">
-                    <a href="">Квадроциклы</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Катера</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Гидроциклы</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Лодки</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Вездеходы</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Снегоходы</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Двигатели</a>
-                </li>
-                <li class="header__bottom-menu-item">
-                    <a href="">Запчасти</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</header>
-<main class="main">
-    <section class="hero">
-        <div class="container">
-            <div class="hero__wrapper">
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                        <!-- Slides -->
-                        <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
-                        <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
-                        <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
-                        <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
-                        <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
-                        ...
-                    </div>
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-
-                    <!-- If we need scrollbar -->
-                    <div class="swiper-scrollbar"></div>
-                </div>
-                <div class="hero__wrapper-card">
-                    <header class="card-header">
-                        <div class="action-alert">
-                            <span class="action-alert-span">акция</span>
-                        </div>
-                        <div class="prices">
-                            <span class="price">190 000 ₽</span>
-                            <span class="old-price"><s>225 000</s> ₽</span>
-                        </div>
-
-                    </header>
-                    <div class="card-main">
-                        <a class="card-main__link" href="#"><img src="./assets/img/boat-motor-Suzuki DF9.9BRS.png"
-                                alt=""></a>
-                        <h4 class="card-main__title">Лодочный мотор <br> Suzuki DF9.9BRS</h4>
-                    </div>
-                    <footer class="card-footer">
-                        <p class="card-footer-description">Акция действует до <br> <span
-                                class="card-footer-description-span"
-                                style="color: var(--color-accent); font-weight: 700;">31.08.2020</span></p>
-                    </footer>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="search-product">
-        <div class="container">
-            <div class="search-products">
-                <div class="search-product__top">
-                    <nav class="">
-                        <ul class="search__nav__menu">
-                            <li class="search__nav__menu-item">
-                                <button class="search__nav__menu-item__button">Поиск по номеру</button>
-                            </li>
-                            <li class="search__nav__menu-item">
-                                <button class="search__nav__menu-item__button">Поиск по марке</button>
-                            </li>
-                            <li class="search__nav__menu-item">
-                                <button class="search__nav__menu-item__button">Поиск по названию товара</button>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="search-product__bottom">
-                    <input class="search-product__bottom__input" placeholder="Введите марку " type="text">
-                    <button class="search-product__bottom__button">искать</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="products-more">
-        <div class="container">
-            <ul class="products-more__list">
-                <li class="products-more__list__item">
-                    <div class="products-more__list__item-text">
-                        <h4 class="products-more__list__item-text__tilte">Квадроциклы</h4>
-                        <a href="#" class="products-more__list__item-text__link">Подробее</a>
-                    </div>
-                    <img src="./assets/img/ski.png" alt="" class="products-more__list__item-img">
-                </li>
-                <li class="products-more__list__item">
-                    <div class="products-more__list__item-text">
-                        <h4 class="products-more__list__item-text__tilte">Гидроциклы</h4>
-                        <a href="#" class="products-more__list__item-text__link">Подробее</a>
-                    </div>
-                    <img src="./assets/img/jet_ski_.png" alt="" class="products-more__list__item-img">
-                </li>
-                <li class="products-more__list__item">
-                    <div class="products-more__list__item-text">
-                        <h4 class="products-more__list__item-text__tilte">Катера</h4>
-                        <a href="#" class="products-more__list__item-text__link">Подробее</a>
-                    </div>
-                    <img src="./assets/img/boat.png" alt="" class="products-more__list__item-img">
-                </li>
-                <li class="products-more__list__item">
-                    <div class="products-more__list__item-text">
-                        <h4 class="products-more__list__item-text__tilte">Снегоходы</h4>
-                        <a href="#" class="products-more__list__item-text__link">Подробее</a>
-                    </div>
-                    <img src="./assets/img/snowmobile.png" alt="" class="products-more__list__item-img">
-                </li>
-                <li class="products-more__list__item">
-                    <div class="products-more__list__item-text">
-                        <h4 class="products-more__list__item-text__tilte">Вездеходы</h4>
-                        <a href="#" class="products-more__list__item-text__link">Подробее</a>
-                    </div>
-                    <img src="./assets/img/all-terrain-venchile.png" alt="" class="products-more__list__item-img">
-                </li>
-                <li class="products-more__list__item">
-                    <div class="products-more__list__item-text">
-                        <h4 class="products-more__list__item-text__tilte">Двигатели</h4>
-                        <a href="#" class="products-more__list__item-text__link">Подробее</a>
-                    </div>
-                    <img src="./assets/img/engine.png" alt="" class="products-more__list__item-img">
-                </li>
-            </ul>
-        </div>
-    </section>
-</main>
 
 <body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <ul class="header__top-menu">
+                    <li class="header__top-menu-item">
+                        <a href="#" class="header__top-menu-item-link">Магазины</a>
+                    </li>
+                    <li class="header__top-menu-item">
+                        <a href="#" class="header__top-menu-item-link">Акции</a>
+                    </li>
+                    <li class="header__top-menu-item">
+                        <a href="#" class="header__top-menu-item-link">Доставка и оплата</a>
+                    </li>
+                </ul>
+                <a href="index.html">
+                    <img src="/assets/img/icons/logo.svg" alt="logo" class="header__top-logo logo">
+
+                </a>
+                <div class="header__top-adress">
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/%D0%9F%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82+%D0%9D%D0%B0%D1%83%D0%BA%D0%B8,+25/@60.0096824,30.3303438,13z/data=!4m10!1m2!2m1!1z0JzQvtGB0LrQstCwLCDRg9C7LiDQndCw0YPQutC4IDI1!3m6!1s0x469633093865d361:0xa2c34af8b0ca082d!8m2!3d60.0096824!4d30.4065615!15sCiHQnNC-0YHQutCy0LAsINGD0LsuINCd0LDRg9C60LggMjVaISIf0LzQvtGB0LrQstCwINGD0Lsg0L3QsNGD0LrQuCAyNZoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyMUdkR1ZVUm5CUFZVcHZXVlZHVmt4VWFGQk5WVkpJWVZSS1YxTkdSUkFCqgFgEAEqFiIS0YPQuyDQvdCw0YPQutC4IDI1KA0yHxABIhu2FrsdjojULVeiSWbFA6-tS_dgr_xexHRDEbUyIxACIh_QvNC-0YHQutCy0LAg0YPQuyDQvdCw0YPQutC4IDI14AEA-gEECAAQKQ!16s%2Fg%2F120htnfc?entry=ttu&g_ep=EgoyMDI1MTEwNS4wIKXMDSoASAFQAw%3D%3D">
+                        <p>Москва, ул. Науки 25</p>
+                    </a>
+                </div>
+                <div class="header__top-panel">
+                    <a href="#">
+                        <img src="./assets/img/favorites.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/user-profile.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <span class="basket-container">
+                            <img class="header__top-panel__basket-img" src="./assets/img/basket.svg" alt="">
+                        </span>
+
+                    </a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <ul class="header__bottom-menu">
+                    <li class="header__bottom-menu-item">
+                        <a href="">Квадроциклы</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Катера</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Гидроциклы</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Лодки</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Вездеходы</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Снегоходы</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Двигатели</a>
+                    </li>
+                    <li class="header__bottom-menu-item">
+                        <a href="">Запчасти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__wrapper">
+                    <div class="main-swiper swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./assets/img/banner-hero.png" alt=""></div>
+                            ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                    <div class="hero__wrapper-card">
+                        <header class="card-header">
+                            <div class="action-alert">
+                                <span class="action-alert-span">акция</span>
+                            </div>
+                            <div class="prices">
+                                <span class="price">190 000 ₽</span>
+                                <span class="old-price"><s>225 000</s> ₽</span>
+                            </div>
+
+                        </header>
+                        <div class="card-main">
+                            <a class="card-main__link" href="#"><img src="./assets/img/boat-motor-Suzuki DF9.9BRS.png"
+                                    alt=""></a>
+                            <h4 class="card-main__title">Лодочный мотор <br> Suzuki DF9.9BRS</h4>
+                        </div>
+                        <footer class="card-footer">
+                            <p class="card-footer-description">Акция действует до <br> <span
+                                    class="card-footer-description-span"
+                                    style="color: var(--color-accent); font-weight: 700;">31.08.2020</span></p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="search-product">
+            <div class="container">
+                <div class="search-products">
+                    <div class="search-product__top">
+                        <nav class="">
+                            <ul class="search__nav__menu">
+                                <li class="search__nav__menu-item">
+                                    <button class="search__nav__menu-item__button">Поиск по номеру</button>
+                                </li>
+                                <li class="search__nav__menu-item">
+                                    <button class="search__nav__menu-item__button">Поиск по марке</button>
+                                </li>
+                                <li class="search__nav__menu-item">
+                                    <button class="search__nav__menu-item__button">Поиск по названию товара</button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="search-product__bottom">
+                        <input class="search-product__bottom__input" placeholder="Введите марку " type="text">
+                        <button class="search-product__bottom__button">искать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products-more">
+            <div class="container">
+                <ul class="products-more__list">
+                    <li class="products-more__list__item">
+                        <div class="products-more__list__item-text">
+                            <h4 class="products-more__list__item-text__tilte">Квадроциклы</h4>
+                            <a href="#" class="products-more__list__item-text__link">Подробее</a>
+                        </div>
+                        <img src="./assets/img/ski.png" alt="" class="products-more__list__item-img">
+                    </li>
+                    <li class="products-more__list__item">
+                        <div class="products-more__list__item-text">
+                            <h4 class="products-more__list__item-text__tilte">Гидроциклы</h4>
+                            <a href="#" class="products-more__list__item-text__link">Подробее</a>
+                        </div>
+                        <img src="./assets/img/jet_ski_.png" alt="" class="products-more__list__item-img">
+                    </li>
+                    <li class="products-more__list__item">
+                        <div class="products-more__list__item-text">
+                            <h4 class="products-more__list__item-text__tilte">Катера</h4>
+                            <a href="#" class="products-more__list__item-text__link">Подробее</a>
+                        </div>
+                        <img src="./assets/img/boat.png" alt="" class="products-more__list__item-img">
+                    </li>
+                    <li class="products-more__list__item">
+                        <div class="products-more__list__item-text">
+                            <h4 class="products-more__list__item-text__tilte">Снегоходы</h4>
+                            <a href="#" class="products-more__list__item-text__link">Подробее</a>
+                        </div>
+                        <img src="./assets/img/snowmobile.png" alt="" class="products-more__list__item-img">
+                    </li>
+                    <li class="products-more__list__item">
+                        <div class="products-more__list__item-text">
+                            <h4 class="products-more__list__item-text__tilte">Вездеходы</h4>
+                            <a href="#" class="products-more__list__item-text__link">Подробее</a>
+                        </div>
+                        <img src="./assets/img/all-terrain-venchile.png" alt="" class="products-more__list__item-img">
+                    </li>
+                    <li class="products-more__list__item">
+                        <div class="products-more__list__item-text">
+                            <h4 class="products-more__list__item-text__tilte">Двигатели</h4>
+                            <a href="#" class="products-more__list__item-text__link">Подробее</a>
+                        </div>
+                        <img src="./assets/img/engine.png" alt="" class="products-more__list__item-img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="popular-products">
+            <div class="container">
+                <div class="popular-products__text">
+                    <h3 class="popular-products__text__title">Популярные товары</h3>
+                    <ul class="popular-products__text__menu">
+                        <li class="popular-products__text__menu__item">
+                            <a class="popular-products__text__menu__item__link" href="">запчасти</a>
+                        </li>
+                        <li class="popular-products__text__menu__item">
+                            <a class="popular-products__text__menu__item__link" href="">моторы</a>
+                        </li>
+                        <li class="popular-products__text__menu__item">
+                            <a class="popular-products__text__menu__item__link" href="">шины</a>
+                        </li>
+                        <li class="popular-products__text__menu__item">
+                            <a class="popular-products__text__menu__item__link" href="">электроника</a>
+                        </li>
+                        <li class="popular-products__text__menu__item">
+                            <a class="popular-products__text__menu__item__link" href="">инструменты</a>
+                        </li>
+                        <li class="popular-products__text__menu__item">
+                            <a class="popular-products__text__menu__item__link" href="">аксессуары </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper more-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide more-slide">
+                            <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/backpack.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">Водонепроницаемый <br> Рюкзак</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                             <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/save-vest.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">Спасательный жилет BRP <br> Men's Airflow PFD</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                             <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/brp.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">BRP Audio-Premium <br> System</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                             <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/save-equip.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">Спасательное <br> Снаряжение</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                             <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/backpack.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">Водонепроницаемый <br> Рюкзак</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                            <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/save-vest.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">Спасательный жилет BRP <br> Men's Airflow PFD</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                            <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/brp.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">BRP Audio-Premium <br> System</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+                        <div class="swiper-slide more-slide">
+                            <header class="product-card-header">
+                                <img src="./assets/img/fovorite-card.svg" alt=""
+                                    class="product-card-header-fovorite-img">
+                            </header>
+                            <div class="product-card-main">
+                                <img src="./assets/img/save-equip.png" alt="" class="product-card-main__img">
+                                <h3 class="product-card-main__title">Спасательное <br> Снаряжение</h3>
+                                <div class="products-card__footer__text">
+                                    <span class="products-card__footer__text__price">9 800 ₽</span>
+                                </div>
+                            </div>
+                            <footer class="products-card__footer">
+                                
+                                <img src="./assets/img/basket-white.png" alt="" class="products-card__footer__img">
+                            </footer>
+                        </div>
+
+                    </div>
+                    <!-- <div class="swiper-button-prev more-prev"></div>
+                    <div class="swiper-button-next more-next"></div> -->
+                </div>
+                <div  class="button__container">
+                <button  class="show-more__button">Показать еще</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <script type="module" src="/scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="./scripts/swiper.js"></script>
+
 </body>
 
 </html>

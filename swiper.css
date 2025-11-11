@@ -1,4 +1,4 @@
-.swiper {
+.main-swiper {
   width: 870px;
   height: 400px;
   margin-left: 0px;
@@ -9,3 +9,12 @@
 
 
 }
+
+.more-slide  {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-light-gray);
+  width: 271px;
+  height: 390px;
+  border-radius: 5px;
+}
+
