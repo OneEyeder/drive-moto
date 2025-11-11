@@ -1,0 +1,11 @@
+.swiper {
+  width: 870px;
+  height: 400px;
+  margin-left: 0px;
+  --swiper-navigation-color: var(--color-white);
+  --swiper-pagination-color: var(--color-white);
+  --swiper-pagination-progressbar-bg-color: rgba(255, 255, 255, 0.85);
+  --swiper-pagination-bullet-inactive-color: #fff;
+
+
+}

@@ -1,1 +1,6 @@
-@import './blocks/_header';
+@use './blocks/header';
+@use './blocks/container';
+@use './blocks/variables';
+@use './blocks/hero';
+@use './blocks/search';
+@use './blocks/products'
