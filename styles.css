@@ -17,7 +17,7 @@ header .header__top-adress p::before {
   display: inline-block;
   width: 30px;
   height: 30px;
-  background-image: url("../assets/img/gps-point.svg");
+  background-image: url("./assets/img/gps-point.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -282,7 +282,7 @@ body {
   content: "";
   width: 6px;
   height: 9px;
-  background-image: url(../assets/img/icons/back.svg);
+  background-image: url(./assets/img/icons/back.svg);
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
